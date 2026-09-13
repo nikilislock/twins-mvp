@@ -1,0 +1,1107 @@
+{
+  "scope": "Full real graph, six-phase protocol, same Runtime/storage as the console",
+  "seed": 42,
+  "run_id": "444d087ad6ab4919",
+  "neurons": 138639,
+  "edges": 15091983,
+  "graph_hash": "613dc66ce33c5486fa5d6dbc54640399721e1766eb6dee90ecf9d2646f26cd09",
+  "initial_equal": true,
+  "initial_divergence": 0.0,
+  "checkpoints": [
+    {
+      "tick": 50,
+      "phase": "familiarization",
+      "metrics": {
+        "divergence": 0.0,
+        "state_distance": 0.0,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": null,
+        "recognition_trials": 0,
+        "communication_accuracy": null,
+        "communication_greedy_accuracy": 0.5,
+        "communication_expected_accuracy": 0.25000301350165216,
+        "communication_chance": 0.25,
+        "trial_count": 0,
+        "trial_window": 0,
+        "communication_ci95": null,
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": null,
+        "mean_reward": 0.0
+      },
+      "spike_rates": [
+        56.297290084319705,
+        56.297290084319705
+      ],
+      "recognition": [
+        {
+          "partner": 0.5,
+          "novel": 0.5,
+          "identical_cue": 0.5
+        },
+        {
+          "partner": 0.5,
+          "novel": 0.5,
+          "identical_cue": 0.5
+        }
+      ],
+      "wall_ms": 519.19
+    },
+    {
+      "tick": 100,
+      "phase": "familiarization",
+      "metrics": {
+        "divergence": 0.6167376252390602,
+        "state_distance": 5.644486904144287,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": null,
+        "recognition_trials": 0,
+        "communication_accuracy": null,
+        "communication_greedy_accuracy": 0.5,
+        "communication_expected_accuracy": 0.2500030144207339,
+        "communication_chance": 0.25,
+        "trial_count": 0,
+        "trial_window": 0,
+        "communication_ci95": null,
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": null,
+        "mean_reward": 0.0
+      },
+      "spike_rates": [
+        59.54493324389241,
+        57.63529742713089
+      ],
+      "recognition": [
+        {
+          "partner": 0.9648799905584179,
+          "novel": 0.07522750092194877,
+          "identical_cue": 0.9648799905584179
+        },
+        {
+          "partner": 0.9719860915690451,
+          "novel": 0.0548520709097266,
+          "identical_cue": 0.9719860915690451
+        }
+      ],
+      "wall_ms": 582.95
+    },
+    {
+      "tick": 150,
+      "phase": "familiarization",
+      "metrics": {
+        "divergence": 0.6442323932775649,
+        "state_distance": 5.926934242248535,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": null,
+        "recognition_trials": 0,
+        "communication_accuracy": null,
+        "communication_greedy_accuracy": 0.5,
+        "communication_expected_accuracy": 0.2500030144374412,
+        "communication_chance": 0.25,
+        "trial_count": 0,
+        "trial_window": 0,
+        "communication_ci95": null,
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": null,
+        "mean_reward": 0.0
+      },
+      "spike_rates": [
+        58.08971501525544,
+        56.49745021242219
+      ],
+      "recognition": [
+        {
+          "partner": 0.9824431644418148,
+          "novel": 0.03665570180208344,
+          "identical_cue": 0.9824431644418148
+        },
+        {
+          "partner": 0.9863097833111014,
+          "novel": 0.028297743718440113,
+          "identical_cue": 0.9863097833111014
+        }
+      ],
+      "wall_ms": 1071.74
+    },
+    {
+      "tick": 200,
+      "phase": "familiarization",
+      "metrics": {
+        "divergence": 0.6286781516310829,
+        "state_distance": 5.478510856628418,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": null,
+        "recognition_trials": 0,
+        "communication_accuracy": null,
+        "communication_greedy_accuracy": 0.5,
+        "communication_expected_accuracy": 0.2500030144781067,
+        "communication_chance": 0.25,
+        "trial_count": 0,
+        "trial_window": 0,
+        "communication_ci95": null,
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": null,
+        "mean_reward": 0.0
+      },
+      "spike_rates": [
+        55.88795360612814,
+        53.76012521729095
+      ],
+      "recognition": [
+        {
+          "partner": 0.9893748880489927,
+          "novel": 0.026747033700378422,
+          "identical_cue": 0.9893748880489927
+        },
+        {
+          "partner": 0.9909249815558171,
+          "novel": 0.018846133273489194,
+          "identical_cue": 0.9909249815558171
+        }
+      ],
+      "wall_ms": 505.01
+    },
+    {
+      "tick": 250,
+      "phase": "familiarization",
+      "metrics": {
+        "divergence": 0.6623209344674494,
+        "state_distance": 6.041525363922119,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": null,
+        "recognition_trials": 0,
+        "communication_accuracy": null,
+        "communication_greedy_accuracy": 0.5,
+        "communication_expected_accuracy": 0.25000301438916517,
+        "communication_chance": 0.25,
+        "trial_count": 0,
+        "trial_window": 0,
+        "communication_ci95": null,
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": null,
+        "mean_reward": 0.0
+      },
+      "spike_rates": [
+        53.68619219700084,
+        55.936641204855775
+      ],
+      "recognition": [
+        {
+          "partner": 0.9922518712196144,
+          "novel": 0.02021852960595248,
+          "identical_cue": 0.9922518712196144
+        },
+        {
+          "partner": 0.9932234430948446,
+          "novel": 0.013921381645164498,
+          "identical_cue": 0.9932234430948446
+        }
+      ],
+      "wall_ms": 873.77
+    },
+    {
+      "tick": 300,
+      "phase": "recognition",
+      "metrics": {
+        "divergence": 0.6545506614490972,
+        "state_distance": 5.808785915374756,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": null,
+        "recognition_trials": 0,
+        "communication_accuracy": null,
+        "communication_greedy_accuracy": 0.5,
+        "communication_expected_accuracy": 0.25000301439730854,
+        "communication_chance": 0.25,
+        "trial_count": 0,
+        "trial_window": 0,
+        "communication_ci95": null,
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": null,
+        "mean_reward": 0.0
+      },
+      "spike_rates": [
+        55.03141251740131,
+        56.67056167456487
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937192747738383,
+          "novel": 0.015549409725239476,
+          "identical_cue": 0.9937192747738383
+        },
+        {
+          "partner": 0.9946259184879865,
+          "novel": 0.011198153846397838,
+          "identical_cue": 0.9946259184879865
+        }
+      ],
+      "wall_ms": 482.23
+    },
+    {
+      "tick": 350,
+      "phase": "recognition",
+      "metrics": {
+        "divergence": 0.6619046439766922,
+        "state_distance": 5.959412097930908,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 100,
+        "communication_accuracy": null,
+        "communication_greedy_accuracy": 0.5,
+        "communication_expected_accuracy": 0.2500030144317549,
+        "communication_chance": 0.25,
+        "trial_count": 0,
+        "trial_window": 0,
+        "communication_ci95": null,
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": null,
+        "mean_reward": 0.0
+      },
+      "spike_rates": [
+        57.42431783264449,
+        58.280858921371326
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937191958564284,
+          "novel": 0.015549568269709163,
+          "identical_cue": 0.9937191958564284
+        },
+        {
+          "partner": 0.9946262993430127,
+          "novel": 0.011197476721456174,
+          "identical_cue": 0.9946262993430127
+        }
+      ],
+      "wall_ms": 494.6
+    },
+    {
+      "tick": 400,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.6542161588116733,
+        "state_distance": 5.802011013031006,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": null,
+        "communication_greedy_accuracy": 0.5,
+        "communication_expected_accuracy": 0.2500030144736643,
+        "communication_chance": 0.25,
+        "trial_count": 0,
+        "trial_window": 0,
+        "communication_ci95": null,
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": null,
+        "mean_reward": 0.0
+      },
+      "spike_rates": [
+        57.97430737382699,
+        58.95346908157156
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937196597516387,
+          "novel": 0.015548636282250736,
+          "identical_cue": 0.9937196597516387
+        },
+        {
+          "partner": 0.994626268344511,
+          "novel": 0.011197531834402516,
+          "identical_cue": 0.994626268344511
+        }
+      ],
+      "wall_ms": 528.23
+    },
+    {
+      "tick": 450,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.6618761155578787,
+        "state_distance": 5.441032409667969,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.4825,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.6153715685592669,
+        "communication_chance": 0.25,
+        "trial_count": 400,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.43393056304490063,
+          0.5314023672567997
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.4825,
+        "mean_reward": 0.4825
+      },
+      "spike_rates": [
+        59.380838003736315,
+        54.89436594320501
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937195793946472,
+          "novel": 0.015548797725412478,
+          "identical_cue": 0.9937195793946472
+        },
+        {
+          "partner": 0.9946267003381946,
+          "novel": 0.01119676378205332,
+          "identical_cue": 0.9946267003381946
+        }
+      ],
+      "wall_ms": 464.15
+    },
+    {
+      "tick": 500,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.6752068997675247,
+        "state_distance": 5.531080722808838,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.83,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.8563515166568441,
+        "communication_chance": 0.25,
+        "trial_count": 800,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.7900908679413299,
+          0.8636310177980344
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.65625,
+        "mean_reward": 0.65625
+      },
+      "spike_rates": [
+        54.753712880214074,
+        57.397269166684694
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937194196676997,
+          "novel": 0.015549118625995685,
+          "identical_cue": 0.9937194196676997
+        },
+        {
+          "partner": 0.994626307549319,
+          "novel": 0.01119746213161056,
+          "identical_cue": 0.994626307549319
+        }
+      ],
+      "wall_ms": 454.68
+    },
+    {
+      "tick": 550,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.6786496722781041,
+        "state_distance": 5.555548191070557,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9275,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.913399199295735,
+        "communication_chance": 0.25,
+        "trial_count": 1200,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.8978175067464532,
+          0.9490494815977232
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.7466666666666667,
+        "mean_reward": 0.7466666666666667
+      },
+      "spike_rates": [
+        59.41870613608003,
+        60.046235186347275
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937195779612711,
+          "novel": 0.015548800606340674,
+          "identical_cue": 0.9937195779612711
+        },
+        {
+          "partner": 0.9946264538430963,
+          "novel": 0.011197202032653123,
+          "identical_cue": 0.9946264538430963
+        }
+      ],
+      "wall_ms": 830.77
+    },
+    {
+      "tick": 600,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.7010305608354954,
+        "state_distance": 5.86516809463501,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.96,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9358155164169816,
+        "communication_chance": 0.25,
+        "trial_count": 1600,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9360177522821589,
+          0.9752309369302883
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.8,
+        "mean_reward": 0.8
+      },
+      "spike_rates": [
+        56.52269563398466,
+        58.863306861705574
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937186458574018,
+          "novel": 0.01555067322798548,
+          "identical_cue": 0.9937186458574018
+        },
+        {
+          "partner": 0.9946263496960154,
+          "novel": 0.011197387198074945,
+          "identical_cue": 0.9946263496960154
+        }
+      ],
+      "wall_ms": 556.5
+    },
+    {
+      "tick": 650,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.7003305148044647,
+        "state_distance": 5.623795509338379,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9625,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9497970569081531,
+        "communication_chance": 0.25,
+        "trial_count": 2000,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9390561575554867,
+          0.9771449701852891
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.8325,
+        "mean_reward": 0.8325
+      },
+      "spike_rates": [
+        57.891358131550284,
+        58.8560938841163
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937191311809327,
+          "novel": 0.015549698206748461,
+          "identical_cue": 0.9937191311809327
+        },
+        {
+          "partner": 0.994626829971282,
+          "novel": 0.01119653330190367,
+          "identical_cue": 0.994626829971282
+        }
+      ],
+      "wall_ms": 611.22
+    },
+    {
+      "tick": 700,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.7280424912051708,
+        "state_distance": 6.315210819244385,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9675,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9632961234724561,
+        "communication_chance": 0.25,
+        "trial_count": 2400,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9451958471762332,
+          0.9809101576211996
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.855,
+        "mean_reward": 0.855
+      },
+      "spike_rates": [
+        56.27024141835991,
+        57.231370682131285
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937189959379731,
+          "novel": 0.015549969912365565,
+          "identical_cue": 0.9937189959379731
+        },
+        {
+          "partner": 0.9946262112472716,
+          "novel": 0.011197633348354136,
+          "identical_cue": 0.9946262112472716
+        }
+      ],
+      "wall_ms": 580.18
+    },
+    {
+      "tick": 750,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.70108273601484,
+        "state_distance": 5.640100479125977,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9725,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9706944106534467,
+        "communication_chance": 0.25,
+        "trial_count": 2800,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9514345181143852,
+          0.9845763637397046
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.8717857142857143,
+        "mean_reward": 0.8717857142857143
+      },
+      "spike_rates": [
+        57.934635997085955,
+        54.85289132206666
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937190895116071,
+          "novel": 0.01554978192099619,
+          "identical_cue": 0.9937190895116071
+        },
+        {
+          "partner": 0.9946265929105765,
+          "novel": 0.011196954780896794,
+          "identical_cue": 0.9946265929105765
+        }
+      ],
+      "wall_ms": 443.71
+    },
+    {
+      "tick": 800,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.7252644860642036,
+        "state_distance": 6.098362922668457,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9825,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9741250375373924,
+        "communication_chance": 0.25,
+        "trial_count": 3200,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.964322927074442,
+          0.991497708892962
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.885625,
+        "mean_reward": 0.885625
+      },
+      "spike_rates": [
+        58.36020167485339,
+        55.46599441715534
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937190865328235,
+          "novel": 0.015549787905795556,
+          "identical_cue": 0.9937190865328235
+        },
+        {
+          "partner": 0.9946265444217706,
+          "novel": 0.011197040990063236,
+          "identical_cue": 0.9946265444217706
+        }
+      ],
+      "wall_ms": 615.39
+    },
+    {
+      "tick": 850,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.7206395742635421,
+        "state_distance": 5.9544878005981445,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.975,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9779212947366998,
+        "communication_chance": 0.25,
+        "trial_count": 3600,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9545984121283544,
+          0.986364908254064
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.8955555555555555,
+        "mean_reward": 0.8955555555555555
+      },
+      "spike_rates": [
+        58.560361802955875,
+        55.33075108735637
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937183653299289,
+          "novel": 0.015551236805279091,
+          "identical_cue": 0.9937183653299289
+        },
+        {
+          "partner": 0.9946265453353091,
+          "novel": 0.01119703936634892,
+          "identical_cue": 0.9946265453353091
+        }
+      ],
+      "wall_ms": 529.64
+    },
+    {
+      "tick": 900,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.6929719103862484,
+        "state_distance": 5.374089241027832,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.99,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9799367304938651,
+        "communication_chance": 0.25,
+        "trial_count": 4000,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9745734353473804,
+          0.996104516205009
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.905,
+        "mean_reward": 0.905
+      },
+      "spike_rates": [
+        58.89035552766537,
+        54.393064000750144
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937190609088525,
+          "novel": 0.01554983938449217,
+          "identical_cue": 0.9937190609088525
+        },
+        {
+          "partner": 0.9946267345588323,
+          "novel": 0.011196702940059661,
+          "identical_cue": 0.9946267345588323
+        }
+      ],
+      "wall_ms": 489.63
+    },
+    {
+      "tick": 950,
+      "phase": "communication",
+      "metrics": {
+        "divergence": 0.70304937399546,
+        "state_distance": 5.520686149597168,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9875,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9813772653850124,
+        "communication_chance": 0.25,
+        "trial_count": 4400,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9710762638040326,
+          0.9946492492200284
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.9125,
+        "mean_reward": 0.9125
+      },
+      "spike_rates": [
+        58.11135394802328,
+        57.516283296907794
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937194560635874,
+          "novel": 0.015549045503346232,
+          "identical_cue": 0.9937194560635874
+        },
+        {
+          "partner": 0.994626564821747,
+          "novel": 0.011197004720875533,
+          "identical_cue": 0.994626564821747
+        }
+      ],
+      "wall_ms": 753.84
+    },
+    {
+      "tick": 1000,
+      "phase": "separation",
+      "metrics": {
+        "divergence": 0.6935509211351167,
+        "state_distance": 5.2940850257873535,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9875,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9825668047303499,
+        "communication_chance": 0.25,
+        "trial_count": 4800,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9710762638040326,
+          0.9946492492200284
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.91875,
+        "mean_reward": 0.91875
+      },
+      "spike_rates": [
+        52.05786250622119,
+        58.21954861186246
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937189709337647,
+          "novel": 0.015550020145410948,
+          "identical_cue": 0.9937189709337647
+        },
+        {
+          "partner": 0.9946263128501224,
+          "novel": 0.011197452706988341,
+          "identical_cue": 0.9946263128501224
+        }
+      ],
+      "wall_ms": 472.91
+    },
+    {
+      "tick": 1050,
+      "phase": "separation",
+      "metrics": {
+        "divergence": 0.7052160706087525,
+        "state_distance": 5.5657477378845215,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9875,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9825094881737564,
+        "communication_chance": 0.25,
+        "trial_count": 4800,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9710762638040326,
+          0.9946492492200284
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.91875,
+        "mean_reward": 0.91875
+      },
+      "spike_rates": [
+        57.89676786474224,
+        54.72305772545964
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937014834221536,
+          "novel": 0.01558514338255284,
+          "identical_cue": 0.9937014834221536
+        },
+        {
+          "partner": 0.994608353186958,
+          "novel": 0.011229375442977365,
+          "identical_cue": 0.994608353186958
+        }
+      ],
+      "wall_ms": 542.27
+    },
+    {
+      "tick": 1100,
+      "phase": "separation",
+      "metrics": {
+        "divergence": 0.6953520416544046,
+        "state_distance": 5.335348129272461,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9875,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9825132988658037,
+        "communication_chance": 0.25,
+        "trial_count": 4800,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9710762638040326,
+          0.9946492492200284
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.91875,
+        "mean_reward": 0.91875
+      },
+      "spike_rates": [
+        58.05365012730905,
+        56.87973802465395
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937017996576312,
+          "novel": 0.015584508401235068,
+          "identical_cue": 0.9937017996576312
+        },
+        {
+          "partner": 0.9946103600103215,
+          "novel": 0.01122580917608492,
+          "identical_cue": 0.9946103600103215
+        }
+      ],
+      "wall_ms": 558.07
+    },
+    {
+      "tick": 1150,
+      "phase": "reunion",
+      "metrics": {
+        "divergence": 0.6882827406101644,
+        "state_distance": 5.174770355224609,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 200,
+        "communication_accuracy": 0.9875,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9825093481934343,
+        "communication_chance": 0.25,
+        "trial_count": 4800,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9710762638040326,
+          0.9946492492200284
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.91875,
+        "mean_reward": 0.91875
+      },
+      "spike_rates": [
+        56.21794733083764,
+        58.72986677630392
+      ],
+      "recognition": [
+        {
+          "partner": 0.9937001737920118,
+          "novel": 0.015587772976866933,
+          "identical_cue": 0.9937001737920118
+        },
+        {
+          "partner": 0.994609526305004,
+          "novel": 0.011227290753724811,
+          "identical_cue": 0.994609526305004
+        }
+      ],
+      "wall_ms": 480.1
+    },
+    {
+      "tick": 1200,
+      "phase": "reunion",
+      "metrics": {
+        "divergence": 0.7136877169098765,
+        "state_distance": 5.597533226013184,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 250,
+        "communication_accuracy": 0.99,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9839711023414879,
+        "communication_chance": 0.25,
+        "trial_count": 5200,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9745734353473804,
+          0.996104516205009
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.9242307692307692,
+        "mean_reward": 0.9242307692307692
+      },
+      "spike_rates": [
+        58.205122656683905,
+        57.05284948679664
+      ],
+      "recognition": [
+        {
+          "partner": 0.9941741926606974,
+          "novel": 0.013873744051082493,
+          "identical_cue": 0.9941741926606974
+        },
+        {
+          "partner": 0.9951820905525625,
+          "novel": 0.010210069394008753,
+          "identical_cue": 0.9951820905525625
+        }
+      ],
+      "wall_ms": 464.44
+    },
+    {
+      "tick": 1250,
+      "phase": "reunion",
+      "metrics": {
+        "divergence": 0.6903152925393008,
+        "state_distance": 5.038337707519531,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 300,
+        "communication_accuracy": 0.9925,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9849260736182063,
+        "communication_chance": 0.25,
+        "trial_count": 5600,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9781842792759678,
+          0.9974461108047501
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.9291071428571429,
+        "mean_reward": 0.9291071428571429
+      },
+      "spike_rates": [
+        57.54693845166223,
+        58.071682571282246
+      ],
+      "recognition": [
+        {
+          "partner": 0.9948703185477595,
+          "novel": 0.012997984858404123,
+          "identical_cue": 0.9948703185477595
+        },
+        {
+          "partner": 0.995620430980731,
+          "novel": 0.009426586729311882,
+          "identical_cue": 0.995620430980731
+        }
+      ],
+      "wall_ms": 466.86
+    },
+    {
+      "tick": 1300,
+      "phase": "reunion",
+      "metrics": {
+        "divergence": 0.7047889400236241,
+        "state_distance": 5.2754974365234375,
+        "state_distance_unit": "mV RMS",
+        "divergence_unit": "bounded engineered state distance",
+        "recognition_accuracy": 1.0,
+        "recognition_trials": 350,
+        "communication_accuracy": 0.9925,
+        "communication_greedy_accuracy": 1.0,
+        "communication_expected_accuracy": 0.9854475513014522,
+        "communication_chance": 0.25,
+        "trial_count": 6000,
+        "trial_window": 400,
+        "communication_ci95": [
+          0.9781842792759678,
+          0.9974461108047501
+        ],
+        "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+        "communication_all_time_accuracy": 0.9333333333333333,
+        "mean_reward": 0.9333333333333333
+      },
+      "spike_rates": [
+        57.82824457764409,
+        56.21073435324836
+      ],
+      "recognition": [
+        {
+          "partner": 0.995271686084575,
+          "novel": 0.01184149734018083,
+          "identical_cue": 0.995271686084575
+        },
+        {
+          "partner": 0.9959328312464486,
+          "novel": 0.008618847428240227,
+          "identical_cue": 0.9959328312464486
+        }
+      ],
+      "wall_ms": 491.78
+    }
+  ],
+  "completed": true,
+  "neural_ms": 5200.0,
+  "final_metrics": {
+    "divergence": 0.7047889400236241,
+    "state_distance": 5.2754974365234375,
+    "state_distance_unit": "mV RMS",
+    "divergence_unit": "bounded engineered state distance",
+    "recognition_accuracy": 1.0,
+    "recognition_trials": 350,
+    "communication_accuracy": 0.9925,
+    "communication_greedy_accuracy": 1.0,
+    "communication_expected_accuracy": 0.9854475513014522,
+    "communication_chance": 0.25,
+    "trial_count": 6000,
+    "trial_window": 400,
+    "communication_ci95": [
+      0.9781842792759678,
+      0.9974461108047501
+    ],
+    "communication_ci_method": "Wilson interval, recent trial window; adaptive trials are not independent biological replicates",
+    "communication_all_time_accuracy": 0.9333333333333333,
+    "mean_reward": 0.9333333333333333
+  },
+  "elapsed_seconds": 736.181,
+  "recorded_trials": 7000,
+  "recorded_frames": 261,
+  "recorded_events": 17
+}
